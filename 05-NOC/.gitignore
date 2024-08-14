@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.DS_Store
+coverage/
+custom-outputs/
+outputs/
+dist/
+logs/
+.env
+mongo/
+postgres/
+mongo-test/
+postgres-test/
