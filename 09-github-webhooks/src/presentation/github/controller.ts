@@ -33,10 +33,11 @@ export class GithubController {
         message = `Unknown event ${githubEvent}`;
 
     }
+    console.log(message);
 
-    this.discordService.notify(message)
-      .then( () => res.status(202).send('Accepted') )
-      .catch( () => res.status(500).json({ error: 'internal server error'}) )
+    // this.discordService.notify(message)
+    //   .then( () => res.status(202).send('Accepted') )
+    //   .catch( () => res.status(500).json({ error: 'internal server error'}) )
 
   }
 
